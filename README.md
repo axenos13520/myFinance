@@ -49,3 +49,5 @@ Must be modified:
     <img src="./assets/vite.svg" className="logo" alt="Vite logo" />
 </a>
 ```
+
+Then, dublicate all sources to /assets inside build folder
