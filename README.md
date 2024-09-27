@@ -9,20 +9,22 @@ Enjoy managing your finance!
 
 After vite build, your html \<head\> looks like:
 
-<head>
-    ...
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <script type="module" crossorigin src="/assets/index-BIc4mytv.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DiwrgTda.css">
-</head>
+`<head>
+...
+<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+<script type="module" crossorigin src="/assets/index-BIc4mytv.js"></script>
+<link rel="stylesheet" crossorigin href="/assets/index-DiwrgTda.css">
+
+</head>`
 
 Transform it to:
 
-<head>
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <script type="module" src="./assets/index-BIc4mytv.js"></script>
-    <link rel="stylesheet" href="./assets/index-DiwrgTda.css" />
-</head>
+`<head>
+<link rel="icon" type="image/svg+xml" href="./vite.svg" />
+<script type="module" src="./assets/index-BIc4mytv.js"></script>
+<link rel="stylesheet" href="./assets/index-DiwrgTda.css" />
 
-`All paths must start with **./**`
-`--crossorigin--`
+</head>`
+
+All paths must start with **./**
+--crossorigin--
