@@ -29,5 +29,5 @@ Transform it to:
 </head>`
 ```
 
-All paths must start with **./**
---crossorigin--
+`All paths must start with **./**`
+`It doesn't work with crossorigin, delete it`
