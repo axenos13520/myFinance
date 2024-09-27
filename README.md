@@ -5,7 +5,7 @@ Enjoy managing your finance!
 
 ### Vite Build Fixing:
 
-> 1. Html `<head>` editing:
+1. Html `<head>` editing:
 
 After vite build, your html \<head\> looks like:
 
@@ -32,4 +32,20 @@ Transform it to:
 - `All paths must start with **./**`
 - `It doesn't work with crossorigin, delete it`
 
-> 2. Edit **all** `scripts`, so every `.jpg/.png/.svg/etc` source starts with **./assets/**
+2. Edit **all scripts**, so every `.jpg/.png/.svg, etc.` source starts with `./assets/`
+
+Example:
+
+```
+<a href="https://vitejs.dev" target="_blank">
+    <img src="./vite.svg" className="logo" alt="Vite logo" />
+</a>
+```
+
+Must be modified:
+
+```
+<a href="https://vitejs.dev" target="_blank">
+    <img src="./assets/vite.svg" className="logo" alt="Vite logo" />
+</a>
+```
