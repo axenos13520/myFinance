@@ -50,4 +50,4 @@ Must be modified:
 </a>
 ```
 
-Then, dublicate all sources to /assets inside build folder
+Then, dublicate all sources to `/assets` inside build folder
