@@ -31,3 +31,5 @@ Transform it to:
 
 - `All paths must start with **./**`
 - `It doesn't work with crossorigin, delete it`
+
+> 2. Edit **all** `scripts`, so every `.jpg/.png/.svg/etc` source starts with **./assets/**
